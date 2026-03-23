@@ -1,6 +1,6 @@
 _G.L_API_KEY = ""
 
-local github_url = "REPLACE_WITH_YOUR_RAW_GITHUB_URL_HERE/UI.lua"
+local github_url = ""
 
 local success, result = pcall(function()
     return game:HttpGet(github_url)
